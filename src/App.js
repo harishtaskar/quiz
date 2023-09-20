@@ -9,7 +9,7 @@ import AllQuizzes from "./pages/AllQuizzes";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "quiz",
       element: <Root />,
       children: [
         {
