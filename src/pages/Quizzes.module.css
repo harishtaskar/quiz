@@ -1,0 +1,56 @@
+.quiztitle {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 1rem 0rem;
+}
+
+.score {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: var(--color-brown-900);
+  padding-bottom: 1rem;
+}
+
+.listcontainer {
+  list-style: none;
+  max-height: 750px;
+  overflow: auto;
+  list-style-type: none;
+  position: absolute;
+  align-self: center;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Change this value to your desired scrollbar width */
+}
+
+/* Define the scrollbar track (the area the scrollbar moves in) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Change the background color of the scrollbar track */
+}
+
+/* Define the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Change the background color of the scrollbar thumb */
+  border-radius: 5px; /* Add rounded corners to the scrollbar thumb */
+}
+
+/* Define the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change the background color of the scrollbar thumb on hover */
+}

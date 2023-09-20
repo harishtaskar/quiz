@@ -1,0 +1,42 @@
+.allquizzes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  gap: 0.2rem;
+  color: grey;
+}
+
+@media (max-width: 850px) {
+  .searchInput {
+    width: 20rem;
+  }
+}
+
+.searchInput input {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+.listItems {
+  position: relative;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-direction: column;
+}

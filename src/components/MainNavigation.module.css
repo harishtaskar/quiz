@@ -1,0 +1,42 @@
+.header {
+  margin: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.list a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: var(--color-grey-900);
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-brown-900);
+  font-weight: 500;
+}
+
+.header button {
+  background-color: var(--color-brown-900);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1em;
+  white-space: nowrap;
+  padding: 1rem 1rem;
+}
+
+.header button:hover,
+.header button:active {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
